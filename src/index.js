@@ -10,7 +10,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 ReactDOM.render(
     <Provider store={store}>
         <BrowserRouter>
-            <Route path='/' component={App}/>
+            <Route path='/index' component={App}/>
         </BrowserRouter>
     </Provider>,
 document.getElementById('root'));
